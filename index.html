@@ -1,0 +1,777 @@
+<html>
+<head> 
+
+<!--[if lte IE 6]>
+<meta http-equiv="refresh" content="0; url="altindex.html" />
+<script type="text/javascript">
+/* <![CDATA[ */
+window.top.location = 'altindex.html';
+/* ]]> */
+</script>
+<![endif]-->
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+<title>Ink Explosion</title>
+<link rel="shortcut icon" href="" type="image/x-icon" /> 
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" /> 
+
+		<link rel="stylesheet" href="style.css" type="text/css" media="screen">
+        
+		<link rel="stylesheet" href="css/thickbox.css" type="text/css" media="screen" /> 
+		<link rel="stylesheet" href="css/multimedia-portfolio.css" type="text/css" media="screen" /> 
+        <link rel="stylesheet" href="js/browser_detect.php" type=""text/php" media="screen" />
+        
+        
+
+		<script type="text/javascript" src="js/jquery2.js"></script>
+		<script src="js/jquery_002.js" type="text/javascript"></script>
+		<script src="js/jquery_003.js" type="text/javascript"></script>
+
+	
+	
+	
+		<script type="text/javascript">
+		$(document).ready(function () {
+			$.localScroll.defaults.axis = 'x';
+			$.localScroll();
+		});
+		</script>
+        
+        <script type="text/javascript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+
+
+<script type="text/javascript">
+
+    function changeTargetDiv(toWhat) {
+      // gets the target div
+     var target = document.getElementById('target');
+     // gets target div's parent
+     var parent = target.parentNode;
+     // creates a new div
+     var newDiv = document.createElement('div');
+     // sets newDiv id to target
+     newDiv.setAttribute('id', 'target');
+     // sets newDiv style
+     newDiv.setAttribute('style', "height:530px; width:800px;");
+     // removes original target div to wipe out anything that was in there
+     parent.removeChild(target);
+     // appends the new target div
+     parent.appendChild(newDiv);
+     // creates a new image
+     var newImg = document.createElement('img');
+     // sets source based on incoming variable 'toWhat'
+     newImg.setAttribute('src',toWhat);
+     // appends the image to the new target div
+     newDiv.appendChild(newImg);
+     //new code
+     newCDiv = document.createElement('div');
+     newCDiv.setAttribute('id','book');
+     newCDiv.setAttribute('class','book');
+     // the following line might need to come before newDiv.appendChild(newImg);
+     // move that line to the bottom if you have problems
+     newDiv.appendChild(newCDiv);
+    }
+  
+</script>
+
+<script type="text/javascript" src="js/thickbox-compressed.js"></script>
+		<script type="text/javascript" src="js/jquery.dimensions.js"></script>
+		<script type="text/javascript" src="js/ui.mouse.js"></script>
+		<script type="text/javascript" src="js/ui.slider.js"></script>
+		<script type="text/javascript" src="js/jquery.multimedia-portfolio.js"></script>
+		<script type="text/javascript">
+		$(document).ready(function(){
+			$("ul.multimedia-portfolio").multimedia_portfolio({width: 1150});
+
+		});
+		</script>
+
+
+
+
+
+
+<style>
+		
+body {
+background-image:url(background.png);
+background-repeat:no-repeat;
+	color:#666;
+	font-size:12px;
+	font-family:verdana, helvetica, arial, sans-serif;
+	margin:0 auto;
+	padding:0;
+	}
+	 
+	a {
+	color:#993333;
+	padding: 0 5px;
+	text-decoration: none;
+	font-family: verdana, helvetica, arial, sans-serif;
+	font-size: 12px;
+	letter-spacing: -1px;
+	outline:none;
+	}
+	 
+	a:visited {
+	color:#333333;
+	padding: 0 5px;
+	text-decoration: none;
+	font-family: verdana, helvetica, arial, sans-serif;
+	font-size: 12px;
+	letter-spacing: -1px;
+	}
+	 
+	a:hover {
+	color:#CC3300;
+	padding: 0 5px;
+	text-decoration: none;
+	font-family: verdana, helvetica, arial, sans-serif;
+	font-size: 12px;
+	letter-spacing: -1px;
+	}
+	
+	
+	ul {
+	left:40px;
+	position:;
+	}
+	
+	li {
+	list-style-type:disc;
+	left:40px;
+	position:relative;
+	}
+
+	 
+	 
+	img {
+	border:none;
+	}
+	
+	.indented
+   {
+   padding-left: 50pt;
+   padding-right: 50pt;
+   }
+	 
+
+	 
+	#menu {
+	background:none;
+	position: fixed;
+	border:0px;
+	top: 25px;
+	margin-left:375px;
+	margin-right:auto;;
+	clear: both;
+	float:none;
+	padding: 10px;
+	z-index: 500;
+	
+	}
+	 
+	#menu ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	}
+	 
+	#menu ul li{
+	list-style-type: none;
+	color: #777;
+	display: inline;
+	margin: 0;
+	padding: 0 10px 0 10px;
+	}
+	 
+	#menu ul li a{
+	text-decoration: none;
+	list-style-type: none;
+	color: #777;
+	display: inline;
+	margin: 0;
+	padding: 0;
+	}
+	 
+	#menu ul li a:hover{
+	text-decoration: none;
+	list-style-type: none;
+	color: #fff;
+	display: inline;
+	margin: 0;
+	padding: 0;
+	}
+	 
+	#container {
+	position:relative;
+	top: 75px; 
+	width: 9000px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:auto;
+	margin-top:auto;
+	margin: 0;
+	padding:0;
+	}
+	 
+	.box {
+	background:none;
+	width: 1500px;
+	height:600px;
+	margin-left:auto;
+	margin-right:auto;
+	float:left;
+	line-height: 22px;
+	border:none;
+	}
+	
+	.space {
+	background:none;
+	width: 700px;
+	height:500px;
+	left:0px;
+	float:left;
+	line-height: 22px;
+	margin: 30px;
+	border:none;
+	}
+
+	
+	.home_box {
+	border:none;
+	background:none;
+	width: 1500px;
+	height:400px;
+	
+	margin-left:auto;
+	margin-right:auto;
+	float:left;
+	line-height: 22px;
+	margin: 30px;
+	background-color:;
+	}
+
+.logo {
+position:absolute;
+background-color:;
+left:50px;
+}
+
+.intro {
+background-image:url(intro.png);
+background-repeat:repeat;
+height:200px;
+width:800px;
+top:25px;
+position:relative;
+margin-left:400px;
+	margin-right:auto;
+}
+
+.intro_txt {
+text-align:justify;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#ffffff;
+height:150px;
+width:700px;
+left:25px;
+top:10px;
+overflow:hidden;
+position:relative;
+}
+
+#downloads {
+position:relative;
+top:100px;
+left:0px;
+}
+
+#downloads ul {
+list-style-type:none;
+font-size:16px;
+color:#333333;
+}
+
+#downloads ul li{
+list-style-type:none;
+}
+
+#downloads ul a{
+text-decoration:none;
+color:#333333;
+padding:20px;
+}
+
+#downloads ul a:hover{
+text-decoration:none;
+color:#CC3300;
+padding:20px;
+}
+
+
+.Art_Gallery {
+border:none;
+width: 1500px;
+height:550px;
+float:left;
+margin-left:auto;
+	margin-right:auto;
+
+
+}
+
+#art_menu {
+border:none;
+width:400px;
+height:200px;
+position:relative;
+float:left;
+left: 25px;
+top:25px;
+list-style-type: none;
+}
+
+
+#art_menu ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	}
+	 
+	#art_menu ul li{
+	list-style-type: none;
+	color: #777;
+	display: inline;
+	margin: 0;
+	padding: 0 10px 0 10px;
+	}
+	 
+	#art_menu ul li a{
+	text-decoration: none;
+	list-style-type: none;
+	color: #777;
+	display: inline;
+	margin: 0;
+	padding: 0;
+	}
+	 
+	#art_menu ul li a:hover{
+	text-decoration: none;
+	list-style-type: none;
+	color: #fff;
+	display: inline;
+	margin: 0;
+	padding: 0;
+	}
+	
+#art-text {
+background-image:url(art-text.png);
+background-repeat:no-repeat;
+width:400px;
+height:300px;
+float:left;
+top:50px;
+position:relative;
+}
+
+
+#art_container {
+background-color:;
+width:910px;
+height:575px;
+float:left;
+position:relative;
+left:25px;
+top:10px;
+}
+
+#target {
+background-color:;
+position:absolute;
+width:865px;
+height:550px;
+float:left;
+left:30px;
+top:0px;
+
+}
+
+#book {
+background-image:url(imgs/book.png);
+width:800px;
+height:505px;
+float:left;
+position:absolute;
+left:0px;
+top:0px;
+}
+
+.Video_Gallery {
+border:none;
+width: 1500px;
+height:550px;
+float:left;
+}
+
+.holder {
+background-image:url(vid/curtain.png);
+background-repeat:no-repeat;
+position:relative;
+height:550px;
+width:1300px;
+left:15px;
+
+}
+
+
+.Contact {
+background-color:;
+border:dotted;
+width: 1500px;
+height:550px;
+float:left;
+border:none;
+
+}
+
+.info_box {
+width:900px;
+height:500px;
+top:25px;
+left:150px;
+position:relative;
+float:left;
+}
+
+.statement {
+float:left;
+width:1000px;
+height:125px;
+border:none;
+position:relative;
+}
+
+.experience {
+float:left;
+width:200px;
+height:350px;
+border:none;
+position:relative;
+top:40px;
+left:100px;
+font-weight:bold;
+color:#333333;
+}
+
+.resume {
+position:relative;
+border:none;
+top:40px;
+float:left;
+left:125px;
+font-weight:bold;
+color:#333333;
+}
+
+.photo {
+float:left;
+border:none;
+height:325px;
+width:400px;
+left:625px;
+top:25px;
+position:relative;
+}
+
+.disclaimer {
+color:#000000;
+position:fixed;
+width:1000px;
+height:40px;
+margin-bottom:auto;
+margin-top:650px;
+float:none;
+left:175px;
+font-size:10px;
+
+}
+
+
+</style>
+
+
+
+
+</head>
+<body>
+
+
+<div id="menu" align="center">
+		<ul>
+			<li><a href="#home" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('front','','menu/home2.png',0)"><img src="menu/home.png" alt="Front Page" name="front"></a></li>
+            
+      <li><a href="#art_gallery" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Art Stuff','','menu/art2.png',0)"><img src="menu/art.png" alt="Art Stuff" name="Art Stuff"/></a></li>
+ 
+			
+			<li><a href="#video_gallery" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('About','','menu/vid2.png',0)"><img src="menu/vid.png" alt="About Me" name="About"/></a></li>
+       
+			
+			<li><a href="#contact" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Resume','','menu/me2.png',0)"><img src="menu/me.png" alt="Resume" name="Resume"/></a></li>
+        
+  </ul>
+        
+	</div>
+    
+
+<div id="container">
+
+<div class="home_box">
+			<h2><a name="home"></a></h2>
+            
+			<div class="logo" id="logo"><p><img alt="Ink Explosion" src="logo2.png"/></p>
+		</div><div class="intro"><div class="intro_txt" id="intro_txt">Welcome, to Ink Explosion, the personal site of the one and only Isadora Rochin. 
+        Please enjoy what I have to offer, and if you like free stuff, I have a couple dowloads below. The first is a beautiful icon set called the Transparency Effect, featuring icons with transparent or window effects unique to each icon. They are best featured on a dock, especially if you use large icons, so that your lovely wallpaper shows through the icon a bit. It's a work in progress as I'm still adding more new icons, so check back for Part Two!
+        <br> The second download, Sunny Meadow Wallpaper and Icons, is an idea I had when I got tired of cleaning up my desktop of folders and files. There are a set of icons (fruit, animals, sun, cloud, tree and even a windmill) that you can use to assign to each folder on your desktop, and arrange them on the wallpaper. I plan to come back with more scenes and icons, so return for more!
+        
+        
+        
+        </div>
+
+
+<div class="downloads" id="downloads">
+
+<ul>Downloads: <a href="downloads/The Transparency Effect.zip">The Transparency Effect</a>  <a href="downloads/Sunny Meadow Wallpaper and Icons.zip">Sunny Meadow Wallpaper and Icons</a>   <!-- <a href="downloads/Ink_Explosion_FF_Skin.zip">Ink Explosion Firefox Skin</a></ul>-->
+
+
+
+</div>
+
+
+</div></div>
+		
+        <div class="space"><h2><a name="box2"><img src="img1.png" /></a></h2>
+			
+		</div>
+		
+
+		<div class="box">
+			<a name="art_gallery"></a>
+            <div class="Art_Gallery" id="Art_Gallery">
+ 
+    <div class="art_menu" id="art_menu">
+    
+<ul>
+	<li><a href="#art_gallery" onClick="changeTargetDiv('imgs/diddle.png')" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('one','','imgs_thumb/diddle2.png',0)"><img src="imgs_thumb/diddle.png" alt="diddle" name="one"/></a></li></ul>
+    
+<ul>
+	<li><a href="#art_gallery" onClick="changeTargetDiv('imgs/dragon.png')" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('two','','imgs_thumb/dragon2.png',0)"><img src="imgs_thumb/dragon.png" alt="diddle" name="two"/></a></li></ul>    
+<ul>
+	<li><a href="#art_gallery" onClick="changeTargetDiv('imgs/sun.png')" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('three','','imgs_thumb/sun2.png',0)"><img src="imgs_thumb/sun.png" alt="diddle" name="three"/></a></li></ul>
+    
+    <ul>
+	<li><a href="#art_gallery" onClick="changeTargetDiv('imgs/life.png')" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('four','','imgs_thumb/life2.png',0)"><img src="imgs_thumb/life.png" alt="diddle" name="four"/></a></li></ul>
+    
+    <ul>
+	<li><a href="#art_gallery" onClick="changeTargetDiv('imgs/killer tomato.png')" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('five','','imgs_thumb/tomato2.png',0)"><img src="imgs_thumb/tomato.png" alt="diddle" name="five"/></a></li></ul>
+
+
+<!--<div class="art-text" id="art-text"></div>//-->
+        
+    </div> 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="art_container" id="art_container">
+    
+    
+    <div id="target" align="center" border="0">
+
+
+  <div id="book" class="book">
+  </div></div></div>
+		
+        
+        
+        
+        
+   </div>     
+   
+  </div>
+		
+		<div class="space"><h2><a name="box2"><img src="img2.png" /></a></h2>
+			
+		</div>
+		
+
+		<div class="box">
+			<a name="video_gallery"></a>
+			<div class="Video_Gallery" id="Video_Gallery">
+            
+            <div class="holder" id="holder">
+
+<ul class="multimedia-portfolio">
+	<li>
+		<a href="vid/terratum.flv" alt="TerraTerra and Tum" border="none"><img src="vid_thumb/terratum_thumb.jpg" width="1000" height="650" title="TerraTerra and Tum" border="0"/></a>
+	</li>
+    
+   <!-- <li>
+		<a href="vid/abyss.m4v" alt="The Abyss" border="0"><img src="vid_thumb/abyss_thumb.png" width="900" height="550" title="The Abyss" border="0"/></a>
+	</li>//-->
+    <li>
+		<a href="vid/roto.flv" alt="Rotoscope of Dance Scene from Shaolin Soccer" border="0"><img src="vid_thumb/roto_thumb.jpg" width="900" height="550" title="Rotoscope Assignment" border="0"/></a>
+	</li>
+    <!--<li>
+		<a href="vid/abyss.m4v" alt="The Abyss" border="0"><img src="vid_thumb/abyss_thumb.png" width="900" height="550" title="The Abyss" border="0"/></a>
+	</li>//-->
+    <li>
+		<a href="vid/tripp.flv" alt="Tripp and the Lollipop Fairy" border="0"><img src="vid_thumb/tripp_thumb.jpg" width="900" height="550" title="Tripp and the Lollipop Fairy" border="0"/></a>
+	</li>
+    <!--<li>
+		<a href="vid/abyss.m4v" alt="The Abyss" border="0"><img src="vid_thumb/abyss_thumb.png" width="900" height="550" title="The Abyss" border="0"/></a>
+	</li>//-->
+    <!--<li>
+		<a href="vid/abyss.flv" alt="The Abyss" border="0"><img src="vid_thumb/abyss_thumb.png" width="900" height="550" title="The Abyss" border="0"/></a>
+	</li>//-->
+    
+    
+</ul>
+
+</div>
+
+
+
+</div>
+
+</div>
+
+		<div class="space"><h2><a name="box6"><img src="img3.png" /></a></h2>
+			
+		</div>
+
+
+		<div class="box">
+			<a name="contact"></a>
+			<div class="Contact" id="Contact">
+            
+            <div class="info_box" id="info_box">
+            
+            <div class="statement" id="statement"><p align="justify">
+            <p class="indented">I am comfortable using both traditional and digital media forms, my focus being traditional and computer 2D animation. 
+     
+            While I have not formally studied graphic design and typography, save for a few classes, I have learned much from work 
+            experience and self study.
+            <br> At the moment I am a fourth year student at the <a href="http://www.rit.edu" target="_blank"> Rochester Institute 
+            of Technology</a> studying 2D Animation, and working on-campus as a graphic designer for various clubs and organizations. 
+            To view the full portfolio of my work, please visit <a href="http://alicorno.deviantart.com" target="_blank"> my deviantART</a> page, and 
+            for videos, visit my youtube channel,<a href="http://www.youtube.com/user/TotalInkExplosion?feature=mhum" target="_blank"> Total Ink Explosion</a>.
+            For your convenience, I have also provided my resume below for download.</p><div>
+            
+            <div class="experience" id="experience">
+       
+          
+            I am experienced with:
+            <ul>
+            
+            <li>Illustrator</li>
+            <li>Photoshop</li>
+            <li>After Effects</li>
+            <li>Flash</li>
+           <li>In Design</li>
+            <li>XHTML & CSS</li>
+            <li>Dreamweaver</li>
+            
+            </ul>
+            
+            </p>
+            
+            <p>
+            <br>
+            I am familiar with:
+            <ul>
+            
+            <li>Toon Boom</li>
+            <li>Soundbooth</li>
+            <li>FontLab</li>
+            <li>QuarkXPress</li>
+            <li>BB Edit</li>
+  
+            </ul>
+         
+            </p></div>
+            
+            <div class="resume" id="resume">
+            
+            Download My Resume <!--and Demo Reel-->
+            <ul>
+            <li><a href='downloads/Isadora_Rochin-Resume.pdf'>Resume.PDF</a></li>
+            <!--<li><a href="downloads/Isadora_Rochin_Resume.doc">Resume.DOC</a></li></ul>-->
+            
+           <p>
+            <br>
+            Contact Info and Network Pages
+            <ul>
+            <li><a href="mailto:isadora@inkexplosion.com">Email</a></li>
+            <li><a href="http://twitter.com/#!/TotalArtFreak" target="_blank">Twitter</a></li>
+            <li><a href="http://www.youtube.com/user/TotalInkExplosion?feature=mhum" target="_blank">Youtube: Total Ink Explosion</a></li>
+            <li><a href="http://alicorno.deviantart.com" target="_blank">deviantART: Alicorno</a>
+           </ul></p>
+            
+            
+            </div>
+          
+            </div> </div>
+
+
+            <div class="photo" id="photo"><img src="portrait.png" /> <br> Photo by <a href="http://kylejacksonmedia.com/" target="_blank">Jackson James</a></div>
+            
+            
+            
+            
+           
+		</div>
+        
+        
+	</div>
+    
+    <div class="disclaimer" id="disclaimer" align="center">All video and media within this site are property of Isadora Rochin and/or the stated publication. Nothing contained within this site may be reproduced, 
+    <br>copied, manipulated, altered, or used in any form without written permission from Isadora Rochin and/or stated publications.</div>
+    
+    
+   
+</body>
+</html>
